@@ -8,7 +8,7 @@ import com.ridhaaf.zweilinguaandroid.feature.data.models.WordInfo
 @Entity
 data class WordInfoEntity(
     val meanings: List<Meaning>,
-    val phonetic: String,
+    val phonetic: String? = "",
     val word: String,
     @PrimaryKey val id: Int? = null,
 ) {
