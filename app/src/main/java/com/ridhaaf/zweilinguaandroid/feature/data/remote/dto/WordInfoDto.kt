@@ -5,6 +5,7 @@ import com.ridhaaf.zweilinguaandroid.feature.data.local.entities.WordInfoEntity
 data class WordInfoDto(
     val meanings: List<MeaningDto>,
     val phonetic: String,
+    val phonetics: List<PhoneticDto>,
     val word: String,
 ) {
     fun toWordInfoEntity(): WordInfoEntity {

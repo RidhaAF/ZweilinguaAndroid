@@ -22,7 +22,6 @@ fun WordInfoItem(
             text = wordInfo.word,
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
-            color= Color.Black,
         )
         Text(
             text = wordInfo.phonetic,
